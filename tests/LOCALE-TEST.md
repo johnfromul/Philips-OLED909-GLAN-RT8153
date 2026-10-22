@@ -1,0 +1,1 @@
+LocaleResourceCheck is a separate on-device app_process resource test; compile it with android.jar, convert to dex and pass expected-locales.json as its first argument. It reads the installed package resources without changing the global TV locale. It is not a plain JVM test.

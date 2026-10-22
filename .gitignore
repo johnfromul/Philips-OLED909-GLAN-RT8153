@@ -1,0 +1,13 @@
+/.build/
+/dist/
+/.release-assets/
+*.apk
+*.apk.idsig
+*.p12
+*.jks
+*.keystore
+*.pem
+*.key
+.env
+.DS_Store
+__pycache__/

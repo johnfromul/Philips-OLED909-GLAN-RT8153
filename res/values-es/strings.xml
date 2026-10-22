@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="text_112114772974" formatted="false">"Permiso USB concedido."</string>
+  <string name="text_c535a996598d" formatted="false">"Permiso USB denegado. No se abrió el dispositivo."</string>
+  <string name="text_6585e42c75b6" formatted="false">"Se necesita permiso USB para realizar la prueba."</string>
+  <string name="text_d2eddaeb54a6" formatted="false">"Dispositivo USB desconectado. La prueba actual puede fallar."</string>
+  <string name="text_6883dd2698d3" formatted="false">"Internet mediante un adaptador USB RTL8153 sin root. Usa DHCP o una dirección IPv4 manual."</string>
+  <string name="text_b4fb646ed9f5" formatted="false">"1  Actualizar USB"</string>
+  <string name="text_2b81700cdd78" formatted="false">"2  Probar adaptador"</string>
+  <string name="text_eb9f9d0c89d5" formatted="false">"3  Guardar registro"</string>
+  <string name="text_df5964417438" formatted="false">"Compartir texto"</string>
+  <string name="text_78c358571c53" formatted="false">"Conectar Ethernet"</string>
+  <string name="text_0924aca48c69" formatted="false">"Desconectar"</string>
+  <string name="text_ebf7899f47d1" formatted="false">"Ajustes IP"</string>
+  <string name="text_fc45beb2b1f7" formatted="false">"Comprobar internet"</string>
+  <string name="text_8c31d634a981" formatted="false">"Conecta el adaptador e inicia la prueba. Continuará automáticamente al conceder el permiso USB."</string>
+  <string name="text_12f631c24376" formatted="false">"Compilación: "</string>
+  <string name="text_246dcf668804" formatted="false">"API VPN: prepare() disponible; "</string>
+  <string name="text_8a041fa666d9" formatted="false">"permiso ya concedido."</string>
+  <string name="text_306586ab9732" formatted="false">"se necesitaría permiso (no solicitado)."</string>
+  <string name="text_8975d867f55f" formatted="false">"Este resultado de la API VPN aún no confirma que pueda crearse un túnel funcional."</string>
+  <string name="text_c6d9d6f1851e" formatted="false">"Interfaces de red: "</string>
+  <string name="text_5bfc4593ce33" formatted="false">"La aplicación no puede acceder a la lista de interfaces de red."</string>
+  <string name="text_a1d680a35aef" formatted="false">"%s%04x:%04x · %d interfaces · %s"</string>
+  <string name="text_91ad3d66a4a4" formatted="false">"La aplicación no detecta ningún dispositivo USB."</string>
+  <string name="text_ca6b064a9691" formatted="false">"Lista USB actualizada: "</string>
+  <string name="text_6eda89accf90" formatted="false">" dispositivos. Solo se permite probar 0bda:8153."</string>
+  <string name="text_7d529a900ba1" formatted="false">"Desconecta Ethernet primero; el diagnóstico no puede tomar una interfaz en uso."</string>
+  <string name="text_08e02134a21c" formatted="false">"Conecta el adaptador y actualiza la lista USB."</string>
+  <string name="text_ef8750ca3cbc" formatted="false">"El dispositivo seleccionado no es 0bda:8153. No se realizará la prueba."</string>
+  <string name="text_042d20c0d2c7" formatted="false">"Esperando el permiso USB en el diálogo del sistema. Puedes repetir la prueba si se deniega."</string>
+  <string name="text_63323337cbb6" formatted="false">"Permite el acceso al adaptador USB en el diálogo del sistema."</string>
+  <string name="text_5c8dbe605ece" formatted="false">"Error al solicitar permiso: "</string>
+  <string name="text_9cfcfb24dcb3" formatted="false">"Prueba ECM en curso, hasta unos 20 segundos…"</string>
+  <string name="text_57c76b9a2ab9" formatted="false">"Error: "</string>
+  <string name="text_8324726179f3" formatted="false">"La prueba falló; consulta los detalles en el registro."</string>
+  <string name="text_ca0dbb4e82c8" formatted="false">"PRUEBA COMPLETADA en "</string>
+  <string name="text_afcd3a5b7285" formatted="false">" ms. Los controles vuelven a estar disponibles."</string>
+  <string name="text_1f063cd32533" formatted="false">"Prueba completada. "</string>
+  <string name="text_9cbb1e5e2ccb" formatted="false">"Existe permiso USB, pero openDevice() no pudo abrir el adaptador."</string>
+  <string name="text_e3b84d5ef1dc" formatted="false">" (valor devuelto "</string>
+  <string name="text_97c1abc2d7c9" formatted="false">"Interfaz "</string>
+  <string name="text_4ff68b631e14" formatted="false">"Interfaz liberada: "</string>
+  <string name="text_6df10a71b18c" formatted="false">"Se puede abrir el adaptador, pero no leer su configuración activa. No se intentó tomar ninguna interfaz."</string>
+  <string name="text_fde51fa40622" formatted="false">"Se puede abrir el adaptador, pero su configuración activa no ofrece una interfaz con bulk IN y OUT. Guarda el registro."</string>
+  <string name="text_f5a8c8381ad6" formatted="false">"Se puede abrir el adaptador, pero falló la toma de la interfaz bulk sin forzarla. Guarda el registro."</string>
+  <string name="text_92916d442d4a" formatted="false">"Conexión USB cerrada.\n"</string>
+  <string name="text_ecb404897456" formatted="false">"\n--- DATOS JSON LEGIBLES POR MÁQUINA ---\n"</string>
+  <string name="text_4e23a6735ced" formatted="false">"El almacenamiento externo de la aplicación no está disponible."</string>
+  <string name="text_5dfa51c0620e" formatted="false">"Registro guardado: "</string>
+  <string name="text_915f96f657f5" formatted="false">"Registro guardado"</string>
+  <string name="text_6909c76d75ce" formatted="false">"\n\nDescárgalo mediante ADB o usa Compartir texto."</string>
+  <string name="text_057ed601971a" formatted="false">"Error al guardar: "</string>
+  <string name="text_cd49c1e97613" formatted="false">"Diagnóstico RTL8153"</string>
+  <string name="text_25a7258004d3" formatted="false">"Compartir registro de diagnóstico"</string>
+  <string name="text_daef1060a124" formatted="false">"No se puede compartir: "</string>
+  <string name="text_06b0115b5028" formatted="false">". Usa Guardar registro."</string>
+  <string name="text_07b8d64dd5f5" formatted="false">"Conecta el adaptador y actualiza la lista USB."</string>
+  <string name="text_cc74cf5ce2e0" formatted="false">"Selecciona un adaptador RTL8153 con ID USB 0bda:8153."</string>
+  <string name="text_970a68b2f76e" formatted="false">"Permite el acceso al adaptador USB."</string>
+  <string name="text_9068116c4606" formatted="false">"Error en la solicitud USB: "</string>
+  <string name="text_edf82cda1483" formatted="false">"Acepta la solicitud VPN del sistema para USB Ethernet."</string>
+  <string name="text_8d8828ef2105" formatted="false">"Permiso VPN denegado. Ethernet sigue desconectado."</string>
+  <string name="text_2652738c939d" formatted="false">"USB Ethernet: el estado y el registro se muestran abajo."</string>
+  <string name="text_3c15fc732002" formatted="false">"DHCP automático"</string>
+  <string name="text_76d3d1387e05" formatted="false">"Transferencia nativa rápida (USB asíncrono)"</string>
+  <string name="text_82a52b4d60c2" formatted="false">"Introduce una dirección libre de tu red, preferiblemente fuera del rango DHCP o reservada en el router."</string>
+  <string name="text_0021852141d0" formatted="false">"Dirección IP"</string>
+  <string name="text_02f876333b95" formatted="false">"Prefijo o máscara (24 o 255.255.255.0)"</string>
+  <string name="text_3f008e98b544" formatted="false">"Puerta de enlace"</string>
+  <string name="text_46add94ebdd0" formatted="false">"Servidores DNS (separados por comas)"</string>
+  <string name="text_f906a7efc139" formatted="false">"Ajustes de USB Ethernet · IPv4"</string>
+  <string name="text_6c77d8a4b0ad" formatted="false">"Cancelar"</string>
+  <string name="text_78a5fe4f6b87" formatted="false">"Guardar"</string>
+  <string name="text_84f554b72f49" formatted="false">"Guardado: configuración DHCP automática."</string>
+  <string name="text_b7c636f31c29" formatted="false">"Guardado: configuración IPv4 manual."</string>
+  <string name="text_e610fa3a8b99" formatted="false">"Ethernet desconectado"</string>
+  <string name="text_3833543dc157" formatted="false">"Restaurando USB Ethernet…"</string>
+  <string name="text_4910337c9ce5" formatted="false">"Conexión IPv4 por USB; abre la aplicación para ver el estado."</string>
+  <string name="text_8864acb6a44f" formatted="false">"Abre la aplicación y acepta el permiso VPN para reconectar."</string>
+  <string name="text_b055aa7fb3d6" formatted="false">"Esperando el adaptador USB; la recuperación automática está activada."</string>
+  <string name="text_56d5a2d7f0b5" formatted="false">"Esperando permiso USB; abre la aplicación y autoriza el adaptador."</string>
+  <string name="text_d82ef73e5590" formatted="false">"Reconectando en "</string>
+  <string name="text_787fa040c1f6" formatted="false">"Conexión cancelada."</string>
+  <string name="text_dc5cc73ec209" formatted="false">"Conectando USB Ethernet…"</string>
+  <string name="text_7c99e9860ffd" formatted="false">"El adaptador está desconectado o no tiene permiso USB."</string>
+  <string name="text_f88d5e529f53" formatted="false">"Comprobando disponibilidad de la dirección "</string>
+  <string name="text_5bef1ea5b416" formatted="false">"Android no creó la interfaz VPN; comprueba el permiso VPN."</string>
+  <string name="text_b59ad1cbc5fa" formatted="false">"Conectado: "</string>
+  <string name="text_137fbb70b3bc" formatted="false">"Interfaz VPN creada. IPv4 se enruta por USB; IPv6 se bloquea. Esta VPN no cifra el tráfico Ethernet local."</string>
+  <string name="text_951f15c55f93" formatted="false">"Paquetes TUN → Ethernet: "</string>
+  <string name="text_870f9f7c9491" formatted="false">", Ethernet → TUN: "</string>
+  <string name="text_e445b10236b5" formatted="false">", descartados: "</string>
+  <string name="text_99c2eab302e1" formatted="false">"Adaptador USB desconectado."</string>
+  <string name="text_38b5cbea8b25" formatted="false">"Error de conexión: "</string>
+  <string name="text_7ad7b7475633" formatted="false">"Error al leer la interfaz VPN: "</string>
+  <string name="text_ca4da8271360" formatted="false">"El servidor DHCP rechazó la dirección (NAK)."</string>
+  <string name="text_96f1750641b0" formatted="false">"DHCP no respondió en 15 segundos."</string>
+  <string name="text_9e06f9f6c19d" formatted="false">"Obteniendo la configuración IPv4 por DHCP…"</string>
+  <string name="text_ee6ab8855999" formatted="false">"La oferta DHCP no contiene una IP o un servidor válidos."</string>
+  <string name="text_5434c5287e53" formatted="false">"El ACK DHCP no coincide con el servidor o la dirección elegidos."</string>
+  <string name="text_cea2927e7e5e" formatted="false">"La concesión DHCP es demasiado corta (&lt;60 s)."</string>
+  <string name="text_6cb15ec10073" formatted="false">" · concesión "</string>
+  <string name="text_75159e95a165" formatted="false">"Conflicto de dirección IP: "</string>
+  <string name="text_befe0079d908" formatted="false">" ya está en uso por otro dispositivo."</string>
+  <string name="text_5873e6254b16" formatted="false">"Comprobación ARP: no se detectó ningún conflicto."</string>
+  <string name="text_42aae4faf5f9" formatted="false">"La concesión DHCP ha caducado; vuelve a conectar."</string>
+  <string name="text_3ebe3372915a" formatted="false">"La cola de solicitudes de control está llena."</string>
+  <string name="text_8621a12dcab4" formatted="false">"Solicitada la renovación de la concesión DHCP."</string>
+  <string name="text_57e5a92461b7" formatted="false">"El servidor DHCP revocó la dirección."</string>
+  <string name="text_98cf88ac372d" formatted="false">"DHCP cambió la configuración; vuelve a conectar."</string>
+  <string name="text_1793d6c4c6e7" formatted="false">"Concesión DHCP renovada."</string>
+  <string name="text_584d1063d8c9" formatted="false">"La VPN aún no es la red predeterminada de la aplicación; repite la comprobación."</string>
+  <string name="text_bc87c5b2be7f" formatted="false">"Red predeterminada de la aplicación: "</string>
+  <string name="text_babc2ac2c422" formatted="false">"otra o no disponible"</string>
+  <string name="text_4275ac89c86d" formatted="false">"DNS por VPN: OK ("</string>
+  <string name="text_5ea6793722ef" formatted="false">" direcciones)."</string>
+  <string name="text_0ae2a4eccd14" formatted="false">"HTTPS por VPN: HTTP "</string>
+  <string name="text_4cd8cc87a0e3" formatted="false">" — internet verificado."</string>
+  <string name="text_774bf0c7aa63" formatted="false">" — respuesta inesperada."</string>
+  <string name="text_e4baab524d91" formatted="false">"Falló la comprobación de internet: "</string>
+  <string name="text_0ef222e9cbc2" formatted="false">"Conectado (USB nativo): "</string>
+  <string name="text_153e348e9ea6" formatted="false">"Ruta nativa: tres hilos, 256 solicitudes USB RX asíncronas, 128 búferes TX y control de flujo sin descartes por colas llenas."</string>
+  <string name="text_6f74f3e3ab94" formatted="false">"Falló el control de la conexión nativa: "</string>
+  <string name="text_9e77a66a690a" formatted="false">"IPv4 debe contener cuatro números separados por puntos."</string>
+  <string name="text_5329d713cd73" formatted="false">"Dirección IPv4 no válida."</string>
+  <string name="text_d5904b072c37" formatted="false">"Cada parte de IPv4 debe estar entre 0 y 255."</string>
+  <string name="text_7aaf73b9f35a" formatted="false">"La máscara debe ser contigua (/1 a /30)."</string>
+  <string name="text_0d07f05d7a1f" formatted="false">"El prefijo debe ser de 1 a 30, o introduce una máscara como 255.255.255.0."</string>
+  <string name="text_27dfdde12a73" formatted="false">"Dirección IP, prefijo o puerta de enlace no válidos."</string>
+  <string name="text_b1bd12093810" formatted="false">"La IP no puede ser la dirección de red o de difusión."</string>
+  <string name="text_ba0ff666df1f" formatted="false">"La puerta de enlace debe ser otra dirección de la misma subred."</string>
+  <string name="text_f56028b6b001" formatted="false">"Falta el servidor DNS."</string>
+  <string name="text_dc0dbb6472d8" formatted="false">"Servidor DNS no válido."</string>
+  <string name="text_b166e366b390" formatted="false">"Manual "</string>
+  <string name="text_79d37537c00c" formatted="false">" · puerta de enlace "</string>
+  <string name="text_fb4d5e99d618" formatted="false">"No se puede abrir el adaptador USB."</string>
+  <string name="text_a22e750ebc80" formatted="false">"No se puede leer la configuración USB."</string>
+  <string name="text_65db375e09b9" formatted="false">"La configuración activa no está disponible."</string>
+  <string name="text_a76e0ed3c0e1" formatted="false">"El adaptador no está en modo CDC ECM."</string>
+  <string name="text_6e61f8ce5e8b" formatted="false">"No se puede determinar el ajuste alternativo original."</string>
+  <string name="text_b34b8d1d155f" formatted="false">"El ajuste USB original no está descrito."</string>
+  <string name="text_39dfab699c43" formatted="false">"No se puede leer la dirección MAC del adaptador."</string>
+  <string name="text_6a7f69aa6da3" formatted="false">"Otro controlador ya usa la interfaz de control."</string>
+  <string name="text_bdcbc8d50db3" formatted="false">"Otro controlador ya usa la interfaz de datos."</string>
+  <string name="text_87c602a7d846" formatted="false">"No se pudo configurar el filtro ECM."</string>
+  <string name="text_55bc56d8d28b" formatted="false">"ECM activo; interfaces USB de control y datos tomadas."</string>
+  <string name="text_6e76de5740ba" formatted="false">"La conexión USB está cerrada."</string>
+  <string name="text_2dd078271e68" formatted="false">"Error de envío USB."</string>
+  <string name="text_2beeb6c332eb" formatted="false">"Desactivar filtro ECM: "</string>
+  <string name="text_c533ef5caa09" formatted="false">"Error al desactivar el filtro: "</string>
+  <string name="text_8258dc120534" formatted="false">"Restaurar ajuste alternativo USB: "</string>
+  <string name="text_5b77d8a86bba" formatted="false">"Conexión USB liberada."</string>
+  <string name="text_aedf3513173f" formatted="false">"Prueba ECM: configuración activa no disponible."</string>
+  <string name="text_b6e388f90808" formatted="false">"Prueba ECM: la configuración activa no ofrece interfaces ECM de control y datos."</string>
+  <string name="text_07550d635308" formatted="false">"Prueba ECM: ajuste alternativo original desconocido; no se hicieron cambios."</string>
+  <string name="text_a1b7a2564998" formatted="false">"Prueba ECM: no se pudo leer la MAC del descriptor ECM."</string>
+  <string name="text_f28397eefaef" formatted="false">"Prueba ECM: no se puede tomar la interfaz de control sin forzarla."</string>
+  <string name="text_0ee490f42d27" formatted="false">"Prueba ECM: no se puede tomar la interfaz de datos sin forzarla."</string>
+  <string name="text_44d53d60e5d3" formatted="false">"Prueba ECM: falló la activación de la interfaz de datos."</string>
+  <string name="text_c2dd44302cce" formatted="false">"Prueba ECM: falló la configuración del filtro de recepción."</string>
+  <string name="text_c4dffdcf5254" formatted="false">" bytes\n"</string>
+  <string name="text_676b5f7e3cb3" formatted="false">", transferencias entrantes="</string>
+  <string name="text_ad89d6c8e990" formatted="false">", DHCP OFFER coincidente="</string>
+  <string name="text_bcbecb72078b" formatted="false">"ECM funciona en ambos sentidos: el servidor respondió a nuestro DHCP DISCOVER. No se asignó una IP ni se creó una VPN."</string>
+  <string name="text_9245355c6074" formatted="false">"ECM recibe datos, pero no se confirmó una respuesta a DHCP DISCOVER. Aún no se ha demostrado que la red funcione."</string>
+  <string name="text_307c921abd4f" formatted="false">"ECM se activó, pero no llegaron datos ni DHCP OFFER en 12 s. USB OUT por sí solo no confirma tráfico por cable."</string>
+  <string name="text_8c0954f2223f" formatted="false">"La prueba ECM falló: "</string>
+  <string name="text_ae599897885a" formatted="false">"; verificado "</string>
+  <string name="text_08250d37e29e" formatted="false">"Cabecera de descriptor incompleta en el desplazamiento "</string>
+  <string name="text_bb74c6abc382" formatted="false">"Longitud de descriptor no válida "</string>
+  <string name="text_77d5dd99c5b2" formatted="false">" longitud="</string>
+  <string name="text_b5eb492e5e61" formatted="false">" USB-bcd=%04x VID:PID=%04x:%04x configuraciones=%d"</string>
+  <string name="text_ddfa670f3012" formatted="false">"Restaurar alt "</string>
+  <string name="text_2c6fa21c6a98" formatted="false">"Diagnóstico RTL8153"</string>
+  <string name="text_9b14c60b3faf" formatted="false">"Diagnóstico RTL8153 0.6.1"</string>
+  <string name="text_63afa394788c" formatted="false">"USB o TUN desconectado"</string>
+  <string name="text_1af911a95c1f" formatted="false">"TUN desconectado"</string>
+  <string name="text_45e71833645a" formatted="false">"TUN cerrado"</string>
+  <string name="text_90cf97c4180f" formatted="false">"Configuración nativa no válida"</string>
+  <string name="text_293c7bba0126" formatted="false">"No se pueden duplicar los descriptores USB/TUN"</string>
+  <string name="text_80b3829222d4" formatted="false">"No se puede configurar TUN sin bloqueo"</string>
+  <string name="text_e5e5365c2857" formatted="false">"No se pudo asignar el búfer USB"</string>
+  <string name="text_f0a15bb5a207" formatted="false">"Escritura USB incompleta"</string>
+  <string name="text_b39322735223" formatted="false">"Solicitud USB inesperada"</string>
+  <string name="text_efde3155aeb2" formatted="false">"El gestor DHCP rechazó la configuración"</string>
+  <string name="text_57c89e74cf3f" formatted="false">"No se pudo asignar la devolución de llamada DHCP"</string>
+  <string name="text_81f6cbe4253b" formatted="false">"Falta la devolución de llamada DHCP"</string>
+  <string name="app_name">"Diagnóstico RTL8153"</string>
+</resources>
