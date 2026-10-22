@@ -37,6 +37,17 @@ The connection uses one Android VPN slot. While connected, eligible IPv4 applica
 
 For reliable unattended recovery, see [Setup and recovery](docs/SETUP.md). A boot receiver alone cannot restore a USB permission that Android has discarded.
 
+## Tested TV software
+
+| Component | Tested version |
+|---|---|
+| TV | Philips 65OLED909/12 |
+| Operating system | Android 14 |
+| Philips firmware | `TPM231WW_R.201.100.146.220` |
+| Linux kernel | `5.15.180-android14-11-00042-g766efc243647-dirty` |
+
+These are the versions read from the actual TV during testing, not the latest firmware available for download. Other firmware/kernel combinations have not been verified. See [validation details](docs/TESTING.md).
+
 ## Compatibility and limits
 
 - Hardware testing was performed on a Philips 65OLED909. Other Android TVs may work, but have not been verified.

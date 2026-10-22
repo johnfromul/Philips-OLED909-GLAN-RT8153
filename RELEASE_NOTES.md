@@ -2,6 +2,14 @@
 
 Root-free Realtek RTL8153 USB Ethernet for Android TV, tested on a Philips 65OLED909 running Android 14.
 
+## Tested TV software
+
+- Philips 65OLED909/12, Android 14.
+- Firmware: `TPM231WW_R.201.100.146.220`.
+- Kernel: `5.15.180-android14-11-00042-g766efc243647-dirty`.
+
+These versions were read from the actual test TV. Other firmware/kernel combinations have not been verified.
+
 ## Highlights
 
 - Czech, English, German, Spanish and French, selected automatically from Android's language configuration.

@@ -2,10 +2,13 @@
 
 ## Tested setup
 
-- Philips **65OLED909**, Android 14.
+- Philips **65OLED909/12**, Android 14.
+- Philips firmware **`TPM231WW_R.201.100.146.220`**, read from `ro.odm.tpvision.product.swver`.
 - Kernel `5.15.180-android14-11-00042-g766efc243647-dirty`.
 - RTL8153 USB Ethernet adapters, including an i-tec USB 3.0 adapter reported working by the user.
 - App version **0.6.1**, version code **21**.
+
+The kernel release above was read from the running TV with `uname -r`. These values describe the tested installation; they are not claims about the newest available firmware. Other firmware/kernel combinations have not been verified.
 
 No firmware modification or root access was used.
 
