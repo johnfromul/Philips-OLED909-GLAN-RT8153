@@ -22,3 +22,9 @@
 
 - Optimized asynchronous native USB RX scheduling and buffer refill behavior.
 - Established the native transfer-library baseline retained by 0.6.x.
+
+## Native Ethernet Magisk 1.0.3 and 1.0.2
+
+- Added separate kernel-specific native Ethernet packages for rooted Philips OLED909 TVs. See [compatibility, root requirements and verification](magisk/README.md).
+- 1.0.2 targets firmware 201.100.146.220 and kernel 5.15.180; 1.0.3 targets firmware 201.100.228.214 and kernel 5.15.192. Exact kernel strings are checked by each package.
+- 1.0.3 was validated with a live manual load; automatic loading after reboot remains unverified.

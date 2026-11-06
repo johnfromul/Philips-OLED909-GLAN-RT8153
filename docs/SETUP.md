@@ -22,6 +22,8 @@ The app uses a local VPN interface. It does not connect to a remote VPN server a
 
 ## Persistent USB permission
 
+**Root:** the app and standard approval dialogs do not require root. The system-side persistent permission provisioning below requires an ADB shell with sufficient system privileges; it is not guaranteed to be available on an unrooted TV. Always-on VPN may be configurable without root through system settings.
+
 Android can discard a temporary USB permission when hardware is disconnected or power is lost. The app cannot grant itself a privileged persistent permission. A default-handler selection may restore access automatically, depending on the TV firmware.
 
 On the tested Philips TV, persistent access was provisioned once through ADB using the system `IUsbManager.setDevicePersistentPermission` API for the app's UID, user 0 and the particular USB device. The current attachment was also granted access with `grantDevicePermission`. This was a narrow system-side permission for that app/device pair; the app itself was not granted `MANAGE_USB`.

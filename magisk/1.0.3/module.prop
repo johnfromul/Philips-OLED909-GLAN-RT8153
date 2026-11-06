@@ -1,0 +1,6 @@
+id=rtl8153_native_ethernet
+name=RTL8153 Native Ethernet - Philips OLED909
+version=1.0.3
+versionCode=10003
+author=johnfromul
+description=Loads the verified RTL8153 driver after boot. Android prefers native Ethernet and uses saved Wi-Fi as fallback. Exact tested kernel only.

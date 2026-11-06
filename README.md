@@ -4,7 +4,12 @@
 
 This app was developed and tested on a **Philips 65OLED909 running Android 14**. It provides an alternative USB Ethernet path when the TV firmware does not include a working RTL8153 kernel driver. Despite the requested repository name `RT8153`, the supported chipset is **RTL8153**.
 
-**[Download the latest release](https://github.com/johnfromul/Philips-OLED909-GLAN-RT8153/releases/latest)** · [Build instructions](BUILDING.md) · [Setup and recovery](docs/SETUP.md) · [Testing](docs/TESTING.md)
+**[Download the root-free app v0.6.1](https://github.com/johnfromul/Philips-OLED909-GLAN-RT8153/releases/tag/v0.6.1)** · [Native Magisk releases](magisk/README.md) · [Build instructions](BUILDING.md) · [Setup and recovery](docs/SETUP.md) · [Testing](docs/TESTING.md)
+
+## Choose a connection method and root requirements
+
+- **Root-free VPN app:** the app and its USB Ethernet connection do not require root. Android USB and VPN approvals are required; optional persistent USB permission setup may require elevated privileges. See [setup](docs/SETUP.md).
+- **Native Ethernet with Magisk:** root and Magisk are required to install and automatically load a kernel driver. Apps then use Android Ethernet without needing root. Versions 1.0.2 and 1.0.3 target different exact firmware/kernel combinations. See [Magisk compatibility, installation and validation](magisk/README.md).
 
 ## How it works
 
@@ -27,7 +32,7 @@ The app uses Android's USB Host API to access the adapter and creates a local IP
 
 ## Quick start
 
-1. Download and install the signed APK from [Releases](https://github.com/johnfromul/Philips-OLED909-GLAN-RT8153/releases).
+1. Download and install the signed APK from the [app release](https://github.com/johnfromul/Philips-OLED909-GLAN-RT8153/releases/tag/v0.6.1).
 2. Connect a compatible RTL8153 adapter and an Ethernet cable.
 3. Open the app and approve the Android USB and VPN dialogs.
 4. Open **IP settings** and select DHCP or enter a valid manual configuration. Keep **Fast native transfer** enabled.
@@ -46,7 +51,7 @@ For reliable unattended recovery, see [Setup and recovery](docs/SETUP.md). A boo
 | Philips firmware | `TPM231WW_R.201.100.146.220` |
 | Linux kernel | `5.15.180-android14-11-00042-g766efc243647-dirty` |
 
-These are the versions read from the actual TV during testing, not the latest firmware available for download. Other firmware/kernel combinations have not been verified. See [validation details](docs/TESTING.md).
+These are the versions read from the actual TV during testing, not the latest firmware available for download. These versions describe the root-free app testing. The separately tested Magisk driver versions have their own [compatibility table](magisk/README.md). See [app validation details](docs/TESTING.md).
 
 ## Compatibility and limits
 
