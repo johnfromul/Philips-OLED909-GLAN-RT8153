@@ -45,6 +45,17 @@ See [Magisk setup, driver provenance and GPL-2.0 license](magisk/README.md) for 
 
 ## Root-free VPN app
 
+### Root-free v0.6.1 on firmware 228.214 — verified 6 November 2026
+
+The v0.6.1 userspace USB/ECM + VPN approach also worked on Philips 65OLED909/12 with firmware **`TPM231WW_R.201.100.228.214`** and kernel **`5.15.192-android14-11-00092-g9a68f81c71fb-dirty`**. The app needs ordinary Android USB and VPN consent, with no root permission granted to the app and no loaded `r8152` kernel module during the successful test.
+
+After physically unplugging and reconnecting the USB adapter, DHCP assigned an address, the VPN tunnel was established, DNS over the VPN succeeded, and the app's HTTPS connectivity check returned **HTTP 204**. This confirms functional connectivity, not maximum speed, long-term stability or automatic recovery after reboot.
+
+**When switching from the native Magisk driver:** stop using the native driver, unplug the adapter from the TV's USB port for at least 10 seconds, then reconnect it before starting the root-free app. Disconnecting only the Ethernet cable is insufficient. In our test, switching directly from `r8152` left the adapter unable to receive ECM traffic; a software USB reset did not fix it, but removing USB power did. If using only the root-free app, installing Magisk or obtaining root is not part of its setup. Removing an already loaded native driver was a privileged test-preparation step.
+
+Test precision: the successful test used a locally rebuilt diagnostic version of the v0.6.1 sources with added Java USB transfer logging and the original release's unchanged native libraries. It was not a separate successful run of the byte-identical published APK. The evidence supports compatibility of the v0.6.1 implementation; the original release APK itself was not re-tested after the physical unplug/replug. The diagnostic APK was removed after testing. The previous kernel 5.15.180 / firmware 146.220 remains the original release's directly tested configuration.
+
+
 ### How the app works
 
 ```text
